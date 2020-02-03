@@ -1,5 +1,6 @@
 SypexGeo
 ==========
+This is working copy [igi/sypexgeo](https://github.com/iginikolaev/sypexgeo) with PHP 7.4 support.
 
 Sypex Geo - product for location by IP address.
 Obtaining the IP address, Sypex Geo outputs information about the location of the visitor - country, region, city,
@@ -15,7 +16,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Add
 
 ```
-"igi/sypexgeo": "*"
+"freelancehunt/sypexgeo": "^1.0.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,7 +28,7 @@ Put "post-install-cmd" event to composer.json
 ```json
 "scripts": {
     "post-install-cmd": [
-        "IgI\\SypexGeo\\Composer::installDatabases"
+        "Freelancehunt\\SypexGeo\\Composer::installDatabases"
     ]
 }
 ```

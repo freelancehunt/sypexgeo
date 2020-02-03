@@ -1,6 +1,6 @@
 <?php
 
-namespace IgI\SypexGeo;
+namespace Freelancehunt\SypexGeo;
 
 use Composer\Script\Event;
 
